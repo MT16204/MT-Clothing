@@ -17,6 +17,7 @@ import Orders from './pages/Orders'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
+import ScrollUpButton from './components/ScrollUpButton';
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <Route path = '/orders' element={<Orders/>}/>
         <Route path = '/place-order' element={<PlaceOrder/>}/>
       </Routes>
+      <ScrollUpButton/>
       <Footer/>
     </div>
   )

@@ -52,14 +52,14 @@ const Product = () => {
           {/* Product Info */}
           <div className='flex-1'>
               <h1 className='font-medium text-2xl mt-2'>{productData.name}</h1>
-              <div className=' flex items-center gap-1 mt-2'>
+              {/* <div className=' flex items-center gap-1 mt-2'>
                   <img src={assets.star_icon} className='w-3 5' alt=""/>
                   <img src={assets.star_icon} className='w-3 5' alt=""/>
                   <img src={assets.star_icon} className='w-3 5' alt=""/>
                   <img src={assets.star_icon} className='w-3 5' alt=""/>
                   <img src={assets.star_dull_icon} className='w-3 5' alt=""/>
                   <p className='pl-2'>(43)</p>
-              </div>
+              </div> */}
               <p className='mt-5 text-3xl font-medium'>{productData.price}{currency}</p>
               <p className='mt-5 text-[#4f4e4e] md:w-4/5'>{productData.description}</p>
               <div className='flex flex-col gap-4 my-8'>
@@ -85,7 +85,7 @@ const Product = () => {
           <div className='mt-20'>
             <div className='flex'>
                 <b className='border px-5 py-3 text-sm cursor-pointer'>Description</b>
-                <p className='border px-5 py-3 text-sm cursor-pointer'>Reviews(43)</p>
+                {/* <p className='border px-5 py-3 text-sm cursor-pointer'>Reviews(43)</p> */}
             </div>
             <div className='flex flex-col gap-5 border px-6 py-6 text-sm text-[#4f4e4e] tracking-largest'>
               {Object.keys(productData.description_detail).map((key, index) => {
