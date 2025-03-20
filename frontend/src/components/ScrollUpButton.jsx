@@ -7,7 +7,7 @@ const ScrollUpButton = () => {
   // Check scroll position
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY > 400) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
