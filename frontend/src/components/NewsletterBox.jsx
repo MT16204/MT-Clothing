@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewsletterBox = () => {
   return (
-    <div className='text-center mt-32'>
+    <div className='text-center mt-32 mb-32'>
         <p className='text-2xl font-medium'>10% OFF YOUR FIRST PURCHASE</p>
         <p className='mt-3 text-[#4f4e4e]'>
             Special offers for subscribers. Join now to get access to our latest collection and exclusive deals.

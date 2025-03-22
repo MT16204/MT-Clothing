@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const OurPolicy = () => {
   return (
-    <div className='flex flex-col sm:flex-row justify-around gap-12 sm:gap-12 text-center py-2 mt-32'>
+    <div className='flex flex-col sm:flex-row justify-around gap-12 sm:gap-12 text-center py-2 mt-32 mb-32'>
         <div>
             <img src={assets.delivery_icon} alt="" className='w-12 m-auto mb-5 ' />
             <p className='font-medium gap-3 mb-5 text-[#4f4e4e]'>Fast Delivery</p>

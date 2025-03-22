@@ -19,7 +19,7 @@ const Footer = () => {
         <div>
           <p className='text-xl font-medium mb-5'>RESOURCES</p>
           <ul className='flex flex-col gap-3 text-[#4f4e4e]'>
-            <li>FAQ</li>
+            <li><a href="/faq" className='hover:text-black'>FAQ</a></li>
             <li>Error 404</li>
           </ul>
         </div>

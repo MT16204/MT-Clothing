@@ -12,12 +12,14 @@ import Cart from './pages/Cart'
 import Login from './pages/Login'
 import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
+import FAQ from './pages/FAQ'
 
 // import Components
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
 import ScrollUpButton from './components/ScrollUpButton';
+import Error_404 from './pages/Error_404';
 
 const App = () => {
   return (
@@ -35,6 +37,8 @@ const App = () => {
         <Route path = '/login' element={<Login/>}/>
         <Route path = '/orders' element={<Orders/>}/>
         <Route path = '/place-order' element={<PlaceOrder/>}/>
+        <Route path = '/faq' element={<FAQ/>}/>
+        <Route path="*" element={<Error_404/>} />
       </Routes>
       <ScrollUpButton/>
       <Footer/>

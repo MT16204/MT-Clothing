@@ -1,11 +1,16 @@
 import React from 'react'
+import FAQComp from '../components/FAQComp'
+import OurPolicy from '../components/OurPolicy'
+import NewsletterBox from '../components/NewsletterBox'
 
-const Faq = () => {
+const FAQ = () => {
   return (
     <div>
-        
+        <FAQComp/>
+        <OurPolicy/>
+        <NewsletterBox/>
     </div>
   )
 }
 
-export default Faq
+export default FAQ

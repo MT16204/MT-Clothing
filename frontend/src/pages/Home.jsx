@@ -6,6 +6,7 @@ import OurPolicy from '../components/OurPolicy'
 import NewsletterBox from '../components/NewsletterBox'
 import AboutComps from '../components/AboutComps'
 import ContactComps from '../components/ContactComps'
+import FAQComp from '../components/FAQComp'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <BestSeller/>
       <AboutComps/>
       <ContactComps/>
+      <FAQComp/>
       <OurPolicy/>
       <NewsletterBox/>
     </div>
